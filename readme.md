@@ -28,8 +28,8 @@ step 3. Export env
 step 4. Build/Deploy
 	
 	make -j4 BOARD=cam_8mb
-	make -j4 BOARD=STRAGA_factory_8mb PORT=/dev/ttyS3 BAUD=921600 erase
-	make -j4 BOARD=STRAGA_factory_8mb PORT=/dev/ttyS3 BAUD=921600 deploy
+	make -j4 BOARD=basic_cam_8mb_OV2640 PORT=/dev/ttyS3 BAUD=921600 erase
+	make -j4 BOARD=basic_cam_8mb_OV2640 PORT=/dev/ttyS3 BAUD=921600 deploy
 	
 step 5. Camera Inii and capture to buff 
 
